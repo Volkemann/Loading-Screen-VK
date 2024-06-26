@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgb(12, 12, 12) 20%, rgba(34,34,34,1) 70%);
+
+}
+
+/* TELA DE CARREGAMENTO */
+
+.loading-page{
+    position: absolute; /* Mudei para 'fixed' para garantir que fique sempre visível durante o carregamento */
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(30,30,30,1) 100%);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999; /* Garantir que a tela de carregamento fique acima de todos os outros elementos */
+}
+
+.img-logo-login{
+    height: 109px;
+    width: 120px;
+    margin-left: -20px;
+}
+
+/* TELA DE CARREGAMENTO */
+
+
+/* TEXTO DA TELA */
+.saudacoes{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    font-family: "Playwrite US Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+/* TEXTO DA TELA */
