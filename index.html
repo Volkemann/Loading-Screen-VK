@@ -25,17 +25,5 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="/script.js"></script>
-<script>
-    window.addEventListener('load', function() {
-        console.log("Página carregada, aguardando antes de remover tela de carregamento.");
-        setTimeout(function() {
-            const loadingPage = document.querySelector('.loading-page');
-            loadingPage.style.display = 'none';
-
-            const container = document.querySelector('.container');
-            container.style.display = 'block';
-        }, 5000); // 5000 milissegundos = 3 segundos
-    });
-    </script>
 
 </html>
